@@ -1,0 +1,17 @@
+{
+	"Basically Just main": {
+		"prefix": "CSE111_base",
+		"body": [
+			"# Author: Matthew D. Barker",
+			"# Date: ${CURRENT_MONTH_NAME_SHORT} ${CURRENT_DATE}, ${CURRENT_YEAR}",
+			"# Description: ${1:Assignment 1}",
+			"",
+			"def main():",
+			"    pass",
+			"main()",
+			"",
+			""
+		],
+		"description": ""
+	}
+}
