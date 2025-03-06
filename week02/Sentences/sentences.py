@@ -58,44 +58,51 @@ words[WordType.Adjective] = ["adorable", "average", "beautiful", "brave", "calm"
 
 words[WordType.Adverb] = ["now", "then", "so", "slowly", "incidentally", "immediately", "sadly", "frequently", "commonly", "sweetly", "badly", "dearly", "silently", "willingly", "hardly"]
 
+
+# Get a random article
 def get_determiner(quantity):
     
     return choice(words[(WordType.Determiner, quantity)])
         
-
+#Get a random Noun
 def get_noun(quantity):
     
     return choice(words[(WordType.Noun, quantity)])
-    
+
+#get a random verb    
 def get_verb(quantity, tense):
     
     key = (WordType.Verb, tense, quantity)if tense == Tense.Present else (WordType.Verb, tense)
 
     return choice(words[key])
     
-
+# Get a random preposition
 def get_preposition():
     
     return choice(words[WordType.Preposition])
 
-
+# Get a random preposition phrase
 def get_prepositional_phrase(quantity):
    
     return F"{get_preposition()} {get_determiner(quantity)} {get_adjective()} {get_noun(quantity)}"
 
+# Get a random adjective
 def get_adjective():
     
     return choice(words[WordType.Adjective])
 
+# Get a random verb
 def get_adverb():
 
     return choice(words[WordType.Adverb])
 
+#Create a sentence that follows the provided format
 def make_sentence(quantity, tense):
        
     return (F"{get_determiner(quantity).capitalize()} {get_adjective()} {get_noun(quantity)} {get_prepositional_phrase(quantity)} "
             F"{get_adverb()} {get_verb(quantity, tense)} {get_determiner(quantity)} {get_adjective()} {get_noun(quantity)} {get_prepositional_phrase(quantity)}.")
 
+#Produce the six required sentences (The often don't make sense)
 def main():
     
     clear_screen()
