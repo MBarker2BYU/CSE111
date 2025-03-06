@@ -81,7 +81,7 @@ def get_preposition():
 
 def get_prepositional_phrase(quantity):
    
-    return F"{get_preposition()} {get_determiner(quantity)} {get_noun(quantity)}"
+    return F"{get_preposition()} {get_determiner(quantity)} {get_adjective()} {get_noun(quantity)}"
 
 def get_adjective():
     
