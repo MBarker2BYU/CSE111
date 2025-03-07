@@ -28,7 +28,7 @@ def test_prefix():
     assert prefix("Disable", "dIstasteful") == "dis"
 
 
-class Test():
+class TestData():
     
     def __init__(self, parameter1, parameter2, expected_result):
         
@@ -53,15 +53,15 @@ class Test():
 
 #this can be read in via file.
 tests = []
-tests.append(Test("", "", ""))
-tests.append(Test("", "correct", ""))
-tests.append(Test("clear", "", ""))
-tests.append(Test("angelic", "awesome", ""))
-tests.append(Test("found", "profound", "found"))
-tests.append(Test("ditch", "itch", "itch"))
-tests.append(Test("happy", "funny", "y"))
-tests.append(Test("tired", "fatigued", "ed"))
-tests.append(Test("swimming", "FLYING", "ing"))
+tests.append(TestData("", "", ""))
+tests.append(TestData("", "correct", ""))
+tests.append(TestData("clear", "", ""))
+tests.append(TestData("angelic", "awesome", ""))
+tests.append(TestData("found", "profound", "found"))
+tests.append(TestData("ditch", "itch", "itch"))
+tests.append(TestData("happy", "funny", "y"))
+tests.append(TestData("tired", "fatigued", "ed"))
+tests.append(TestData("swimming", "FLYING", "ing"))
 
 
 def test_Suffix():
