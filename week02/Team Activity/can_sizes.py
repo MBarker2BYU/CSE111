@@ -9,8 +9,6 @@ class CanInfo:
 
     super_script = str.maketrans('23', '\u00b2\u00b3')
     
-
-
     def __init__(self, name, radius, height, cost_per_can, unit_of_measurement = "cm", currency = "$"):
 
         self._name = name
