@@ -129,7 +129,7 @@ def return_by(date, days = 30):
     
     return_date = date + timedelta(days=days)
 
-    return F"{return_date.replace(hour=21, minute=0, second=0, microsecond=0):%a %I:%M %m/%d/%y}" 
+    return F"{return_date.replace(hour=21, minute=0, second=0, microsecond=0):%a %I:%M %p %m/%d/%y}" 
    
 def product_bogo_discount(quantity, price):
     
