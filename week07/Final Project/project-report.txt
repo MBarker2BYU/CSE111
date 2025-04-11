@@ -1,0 +1,31 @@
+Hours		Time Spent		Description of work
+-------------------------------------------------------------------------------------------------------
+5-Apr-25	0.5				Final Project Proposal
+5-Apr-25	2				Research Tkinter for GUI.
+5-Apr-25	1.5				Coded WindowSupport class
+4/6/2025	2				Start coding BallisticCalculator class, function signatures and constants
+4/7/2025	1.75			Research (Simple) Ballistic Formulas
+4/7/2025	0.25			Code and test get_distance_feet()
+4/7/2025	0.25			Code and test get_wind_speed_fps()
+4/7/2025	0.25			Code and test get_weight_lbs()
+4/7/2025	0.25			Code and test get_drag_factor()
+4/7/2025	0.25			Code and test get_flight_time()
+4/7/2025	0.25			Code and test get_bullet_drop()
+4/7/2025	0.25			Code and test get_wind_drift()
+4/7/2025	0.25			Code and test get_muzzle_energy()
+4/8/2025	0.25			Code and test get_target_energy()
+4/8/2025	0.75			Code and test calculate()
+4/8/2025	0.75			Code TestBallisticCalculator class and test function signatures
+4/8/2025	0.5				Code, create test data and test test_get_distance_feet()
+4/8/2025	0.5				Code, create test data and test test_get_wind_speed_fps()
+4/8/2025	0.5				Code, create test data and test test_get_weight_lbs()
+4/8/2025	0.5				Code, create test data and test test_get_drag_factor()
+4/8/2025	0.5				Code, create test data and test test_get_velocity_at_target()
+4/8/2025	0.5				Code, create test data and test test_get_flight_time()
+4/8/2025	0.75			Code, create test data and test test_get_bullet_drop()
+4/8/2025	0.5				Code, create test data and test test_get_wind_drift()
+4/8/2025	0.5				Code, create test data and test test_get_muzzle_energy()
+4/8/2025	0.5				Code, create test data and test test_get_target_energy()
+4/8/2025	1				Add minimal documentation
+-------------------------------------------------------------------------------------------------------		
+Total Hours:	17.75	

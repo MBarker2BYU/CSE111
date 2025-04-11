@@ -218,7 +218,6 @@ class BallisticCalculator:
             sight_height = float(self.entries['sight_height'].get())
 
             #Perform calculations
-
             distance_feet = self.get_distance_feet(distance)
             wind_speed_fps = self.get_wind_speed_fps(wind_speed)
             weight_lbs = self.get_weight_lbs(weight)
@@ -232,8 +231,8 @@ class BallisticCalculator:
             energy_target = self.get_target_energy(velocity_at_target, weight_lbs)
 
             # Update labels with results
-            self.drop_label.config(text=f"Bullet Drop: {bullet_drop:.2f} ft")
-            self.drift_label.config(text=f"Wind Drift: {wind_drift:.2f} ft")
+            self.drop_label.config(text=f"Bullet Drop: {bullet_drop:.2f} inches")
+            self.drift_label.config(text=f"Wind Drift: {wind_drift:.2f} inches")
             self.velocity_label.config(text=f"Velocity at Target: {velocity_at_target:.2f} fps")
             self.energy_muzzle_label.config(text=f"Muzzle Energy: {energy_muzzle:.2f} ft-lbs")
             self.energy_target_label.config(text=f"Energy at Target: {energy_target:.2f} ft-lbs")
